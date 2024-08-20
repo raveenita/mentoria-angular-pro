@@ -4,7 +4,6 @@
     "esbenp.prettier-vscode",
     "firsttris.vscode-jest-runner",
     "baeumer.vscode-eslint",
-    "angular.ng-template",
+    "angular.ng-template"
   ]
 }
-               
