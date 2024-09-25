@@ -9,4 +9,3 @@ export type Product = {
   }
   
 //type ProductWithoutId = Omit<Product, 'id'>
-

@@ -1,0 +1,20 @@
+<form>
+    <mat-form-field>
+        <mat-label>Buscar productos</mat-label>
+        <div class="custom-wrapper-example" matAutocompleteOrigin #origin="matAutocompleteOrigin">
+            <input
+              type="text"
+              matInput
+              aria-label="Number"
+              placeholder="Buscar produtos"
+              [formControl]="control"
+              [matAutocomplete]="auto">
+          </div>
+          
+          <mat-autocomplete #auto="matAutocomplete">
+            @for (product of products; track product.id) {
+              <mat-option [value]="product">{{product}}</mat-option>
+            }
+          </mat-autocomplete>
+    </mat-form-field>
+</form>

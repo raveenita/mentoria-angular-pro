@@ -2,7 +2,7 @@ import { TestBed } from '@angular/core/testing';
 
 import { ProductSearchService } from './product-search.service';
 import { HttpClientTestingModule, HttpTestingController, provideHttpClientTesting } from '@angular/common/http/testing';
-import { Product } from '../models/product.model';
+import { Product } from '../models/product.type';
 import { mockProducts } from '../mocks/product.mock';
 
 describe('ProductSearchService', () => {

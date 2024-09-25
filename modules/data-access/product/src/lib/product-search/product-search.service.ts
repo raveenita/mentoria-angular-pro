@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Product } from '../models/product.model';
+import { Product } from '../models/product.type';
 import { Observable } from 'rxjs';
 
 @Injectable({
