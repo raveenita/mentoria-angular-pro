@@ -12,8 +12,8 @@
           </div>
           
           <mat-autocomplete #auto="matAutocomplete">
-            @for (product of products; track product.id) {
-              <mat-option [value]="product">{{product}}</mat-option>
+            @for (product of products$ | async; track product.id) {
+              <mat-option [value]="product.name">{{product.name}}</mat-option>
             }
           </mat-autocomplete>
     </mat-form-field>

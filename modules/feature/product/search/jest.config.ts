@@ -1,7 +1,7 @@
 /* eslint-disable */
 export default {
   displayName: 'product-search',
-  preset: '../../../../../../../jest.preset.js',
+  preset: '../../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   coverageDirectory:
     '../../../../../../../coverage/modules/feature/layout/modules/feature/product/search',
